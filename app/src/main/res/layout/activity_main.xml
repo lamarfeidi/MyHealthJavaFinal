@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/background_gradient">
+
+    <!-- Workout Tracker Button -->
+    <Button
+        android:id="@+id/btnWorkout"
+        style="@style/RoundedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workout Tracker"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Meal Planner Button -->
+    <Button
+        android:id="@+id/btnMealPlanner"
+        style="@style/RoundedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meal Planner"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogout"
+        style="@style/RoundedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Profile Button -->
+    <Button
+        android:id="@+id/btnProfile"
+        style="@style/RoundedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Profile"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/background_gradient">
+
+    <!-- Fill parent so gravity can center vertically -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">   <!-- centers both vertically + horizontally -->
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password (min 6 chars)"
+            android:inputType="textPassword"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnEmailSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Sign In" />
+
+        <Button
+            android:id="@+id/btnEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Create Account"
+            android:layout_marginTop="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <Button
+            android:id="@+id/btnBackToLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Back to Google / Other Methods" />
+
+    </LinearLayout>
+</ScrollView>

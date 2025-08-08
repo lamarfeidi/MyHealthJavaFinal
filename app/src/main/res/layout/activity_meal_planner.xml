@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <EditText
+        android:id="@+id/editMealName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter meal name"
+        android:layout_marginTop="100dp" />
+
+    <EditText
+        android:id="@+id/editMealCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter calories"
+        android:inputType="number"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnAddMealPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Meal Photo (Camera)"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnAddMeal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Meal"
+        android:layout_marginTop="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mealRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
+
+
+

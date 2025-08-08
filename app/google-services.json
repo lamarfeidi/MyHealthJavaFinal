@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "343944980498",
+    "project_id": "myhealthapp-1b184",
+    "storage_bucket": "myhealthapp-1b184.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343944980498:android:1a38e2c01bc3ccbb6490cb",
+        "android_client_info": {
+          "package_name": "com.example.myhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343944980498-36dpm8hea5b20to5tdpt7cqanscq4rho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myhealth",
+            "certificate_hash": "01c27525891a4ef0376b58f6cd18cc44db66f077"
+          }
+        },
+        {
+          "client_id": "343944980498-cnng9ads7gbjko9nvrpl3jlc4rv8mb6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9lGhMhV9RN8BCsoYhy7HzInurnAGalNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343944980498-cnng9ads7gbjko9nvrpl3jlc4rv8mb6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

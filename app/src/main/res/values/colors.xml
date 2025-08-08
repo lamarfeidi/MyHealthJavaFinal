@@ -1,0 +1,29 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="bluePrimary">#1976D2</color>
+    <color name="blueAccent">#64B5F6</color>
+    <color name="greenPrimary">#2E7D32</color>
+    <color name="greenAccent">#81C784</color>
+
+    <!-- Background Gradient -->
+    <color name="backgroundGradientStart">#E3F2FD</color>
+    <color name="backgroundGradientEnd">#A5D6A7</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#212121</color>
+
+    <!-- Buttons & Other UI Elements -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Added colorPrimaryDark here -->
+    <color name="buttonBackground">#6200EE</color>
+
+    <!-- Color for secondary elements -->
+    <color name="colorSecondary">#03DAC5</color>
+
+    <!-- Gradient for Backgrounds -->
+    <color name="gradientStart">#E0E0E0</color>
+    <color name="gradientEnd">#FFFFFF</color>
+</resources>
+
